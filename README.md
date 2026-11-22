@@ -18,7 +18,7 @@ These details appear in the Visit section, the footer and the search-engine data
 - **Phone:** (928) 927-3070, as a tap-to-call link.
 - **Email:** watnesbms@gmail.com
 
-**Opening hours were not supplied**, so the site asks guests to call. To list them, replace the "Hours" item in the Contact card in `index.html` and add `"openingHours"` to the JSON-LD.
+**Opening hours are intentionally not listed.** The Contact card asks guests to call for the day's hours.
 
 Once the site has a domain, make `og:image` an absolute URL and add `<meta property="og:url">`. Social networks ignore relative image paths.
 

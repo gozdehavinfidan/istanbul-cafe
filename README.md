@@ -15,7 +15,7 @@ Then open <http://localhost:8000>. (Opening `index.html` straight from disk also
 
 These details appear in the Visit section, the footer and the search-engine data (JSON-LD in `<head>`):
 - **Address:** 1270 W Main St, Quartzsite, AZ 85346, USA. The "Get directions" link opens Google Maps.
-- **Phone:** (928) 927-3070, as a tap-to-call link.
+- **Phone:** +1 (928) 927-3070, as a tap-to-call link.
 - **Email:** watnesbms@gmail.com
 
 **Opening hours are intentionally not listed.** The Contact card asks guests to call for the day's hours.

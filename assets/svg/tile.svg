@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <!-- Original İznik-inspired tile: carnation rosette, saz-leaf lattice and tulip buds. Tiles seamlessly. -->
+  <defs>
+    <path id="petal" d="M48 48 C42 40 42 30 48 22 C54 30 54 40 48 48 Z"/>
+    <path id="leaf" d="M0 0 C14 4 22 14 24 24 C14 22 4 14 0 0 Z"/>
+    <path id="bud" d="M0 0 C-5 -1 -6 -6 -5 -12 C-3 -10 -1 -10 0 -14 C1 -10 3 -10 5 -12 C6 -6 5 -1 0 0 Z"/>
+  </defs>
+  <rect width="96" height="96" fill="#F6EEDC"/>
+  <!-- saz-leaf lattice reaching to the corners -->
+  <g fill="#1F6E82">
+    <use xlink:href="#leaf" transform="translate(0 0)"/>
+    <use xlink:href="#leaf" transform="translate(96 0) scale(-1 1)"/>
+    <use xlink:href="#leaf" transform="translate(0 96) scale(1 -1)"/>
+    <use xlink:href="#leaf" transform="translate(96 96) scale(-1 -1)"/>
+  </g>
+  <!-- corner quarter-rosettes (form a full flower where four tiles meet) -->
+  <g fill="#14284B">
+    <circle cx="0" cy="0" r="7"/><circle cx="96" cy="0" r="7"/><circle cx="0" cy="96" r="7"/><circle cx="96" cy="96" r="7"/>
+  </g>
+  <g fill="#C4452F">
+    <circle cx="0" cy="0" r="3"/><circle cx="96" cy="0" r="3"/><circle cx="0" cy="96" r="3"/><circle cx="96" cy="96" r="3"/>
+  </g>
+  <!-- central carnation rosette -->
+  <g fill="#2E8C9A">
+    <use xlink:href="#petal"/>
+    <use xlink:href="#petal" transform="rotate(45 48 48)"/>
+    <use xlink:href="#petal" transform="rotate(90 48 48)"/>
+    <use xlink:href="#petal" transform="rotate(135 48 48)"/>
+    <use xlink:href="#petal" transform="rotate(180 48 48)"/>
+    <use xlink:href="#petal" transform="rotate(225 48 48)"/>
+    <use xlink:href="#petal" transform="rotate(270 48 48)"/>
+    <use xlink:href="#petal" transform="rotate(315 48 48)"/>
+  </g>
+  <circle cx="48" cy="48" r="9" fill="#14284B"/>
+  <circle cx="48" cy="48" r="5" fill="#C4452F"/>
+  <circle cx="48" cy="48" r="1.8" fill="#F6EEDC"/>
+  <!-- tulip buds on the edge midpoints (complete across tile seams) -->
+  <g fill="#C4452F">
+    <use xlink:href="#bud" transform="translate(48 96)"/>
+    <use xlink:href="#bud" transform="translate(48 0) rotate(180)"/>
+    <use xlink:href="#bud" transform="translate(0 48) rotate(90)"/>
+    <use xlink:href="#bud" transform="translate(96 48) rotate(-90)"/>
+  </g>
+</svg>

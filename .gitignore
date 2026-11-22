@@ -1,0 +1,16 @@
+# source material kept out of the published site
+_src/
+*.zip
+WhatsApp Image*
+
+# local test output
+_shots/
+
+# unused font
+assets/fonts/cormorant-garamond/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

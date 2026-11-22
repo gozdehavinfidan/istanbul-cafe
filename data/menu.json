@@ -1,0 +1,356 @@
+{
+  "currency": "USD",
+  "categories": [
+    {
+      "id": "starters",
+      "title": "Starters & Appetizers",
+      "src": "starters-and-appetizers",
+      "items": [
+        {
+          "id": "hummus",
+          "name": "Hummus",
+          "price": 8.0,
+          "img": "hummus",
+          "desc": "A silky dip of garbanzo beans with garlic, tahini, olive oil, and lemon juice. Served with pita bread.",
+          "alt": "Bowl of hummus with olive oil and whole chickpeas, pita on the side"
+        },
+        {
+          "id": "baba-ganoush",
+          "name": "Baba Ganoush",
+          "price": 8.0,
+          "img": "baba-ganoush",
+          "desc": "Charbroiled eggplant dip with fresh herbs, tahini, yogurt, olive oil, and lemon juice. Served with pita bread.",
+          "alt": "Smoky eggplant dip drizzled with olive oil, pita on the side"
+        },
+        {
+          "id": "cacik",
+          "name": "Cacikli (Tzatziki)",
+          "price": 6.0,
+          "img": "cacikli-tzatziki",
+          "desc": "Yogurt with shredded cucumber, fresh diced dill, and a hint of garlic. Served with pita bread.",
+          "alt": "Bowl of yogurt and cucumber dip topped with dill, pita on the side"
+        },
+        {
+          "id": "shakshuka",
+          "name": "Shakshuka",
+          "price": 9.0,
+          "img": "shakshuka",
+          "desc": "A Mediterranean appetizer of tomatoes, peppers, and eggplant. Served with pita bread.",
+          "alt": "Bowl of stewed tomatoes, peppers and eggplant, pita on the side"
+        },
+        {
+          "id": "dolmas",
+          "name": "Dolmas",
+          "price": 6.0,
+          "img": "dolmas",
+          "desc": "Tender vine leaves rolled with rice, pine nuts, onion, currants, and fresh herbs. Served with pita bread.",
+          "alt": "Four stuffed vine leaves on a plate with pita"
+        },
+        {
+          "id": "falafel",
+          "name": "Falafel",
+          "price": 9.0,
+          "img": "falafel",
+          "desc": "Chickpea falafel, pan-fried and served with a side of hummus, with tahini sauce on top.",
+          "alt": "Falafel drizzled with tahini beside a bowl of hummus"
+        },
+        {
+          "id": "appetizers-combo",
+          "name": "Appetizers Combo",
+          "price": 19.5,
+          "img": "appetizers-combo",
+          "featured": true,
+          "desc": "A mezze platter of traditional Mediterranean meze: hummus, tzatziki, baba ganoush, shakshuka, dolmas, and falafel. Served with pita bread.",
+          "alt": "Mezze platter with hummus, tzatziki, baba ganoush, shakshuka, dolmas, falafel and pita"
+        }
+      ],
+      "intro": "Most are served with warm pita bread."
+    },
+    {
+      "id": "soups-salads",
+      "title": "Soups & Salads",
+      "src": "soups-and-salads",
+      "items": [
+        {
+          "id": "lentil-soup",
+          "name": "Lentil Soup",
+          "price": 6.0,
+          "img": "lentil-soup",
+          "desc": "Red lentils simmered with potatoes and carrots, served with fresh pita.",
+          "alt": "Bowl of golden lentil soup with fresh pita"
+        },
+        {
+          "id": "greek-salad",
+          "name": "Greek Salad",
+          "price": 10.0,
+          "img": "greek-salad",
+          "desc": "Lettuce with cucumbers, tomatoes, onions, and olives, tossed in a homemade dressing and topped with feta cheese.",
+          "alt": "Greek salad with feta cubes, olives, tomatoes and cucumber"
+        },
+        {
+          "id": "beet-salad",
+          "name": "Beet Salad",
+          "price": 12.0,
+          "img": "beet-salad",
+          "desc": "Fresh beets with baby arugula, cherry tomatoes, and red onions, tossed in a pomegranate dressing.",
+          "alt": "Beet salad with arugula, cherry tomatoes, red onion and pomegranate"
+        },
+        {
+          "id": "caesar-salad",
+          "name": "Caesar Salad",
+          "price": 10.0,
+          "img": "caesar-salad",
+          "desc": "Chopped romaine lettuce, croutons, and parmesan cheese with a classic Caesar dressing.",
+          "alt": "Caesar salad with romaine, croutons and shaved parmesan"
+        }
+      ],
+      "addon": {
+        "id": "add-protein",
+        "name": "Add Chicken or Beef",
+        "price": 7.0,
+        "src": "add-ons",
+        "imgs": [
+          {
+            "img": "add-chicken",
+            "alt": "Grilled chicken pieces"
+          },
+          {
+            "img": "add-beef",
+            "alt": "Grilled beef pieces"
+          }
+        ],
+        "desc": "Add grilled chicken or beef to any salad."
+      }
+    },
+    {
+      "id": "wraps",
+      "title": "Wraps",
+      "src": "wraps",
+      "items": [
+        {
+          "id": "gyro-wrap",
+          "name": "Lamb and Beef Gyro Wrap",
+          "price": 14.0,
+          "img": "lamb-and-beef-gyro-wrap",
+          "desc": "Slow-cooked, thinly sliced, marinated lamb and beef with lettuce, tomato, onion, and tahini sauce, all wrapped in lavash bread.",
+          "alt": "Lavash wrap filled with sliced lamb and beef gyro and vegetables"
+        },
+        {
+          "id": "chicken-wrap",
+          "name": "Chicken Wrap",
+          "price": 14.0,
+          "img": "chicken-wrap",
+          "desc": "Marinated grilled chicken with lettuce, tomato, onion, and tahini sauce, all wrapped in lavash bread.",
+          "alt": "Lavash wrap filled with grilled chicken and vegetables"
+        },
+        {
+          "id": "falafel-wrap",
+          "name": "Falafel Wrap",
+          "price": 12.0,
+          "img": "falafel-wrap",
+          "desc": "Flavorful falafel with lettuce, pickle, tomato, onion, creamy hummus, and tahini, all wrapped in lavash bread.",
+          "alt": "Lavash wrap filled with falafel, hummus and vegetables"
+        },
+        {
+          "id": "adana-wrap",
+          "name": "Adana Kebab Wrap",
+          "price": 14.0,
+          "img": "adana-kebab-wrap",
+          "desc": "Specially seasoned and marinated ground beef, grilled with Mediterranean spices, with lettuce, tomato, and onion, all wrapped in lavash bread.",
+          "alt": "Lavash wrap filled with an Adana kebab skewer and vegetables"
+        }
+      ],
+      "intro": "Every wrap is rolled in lavash bread."
+    },
+    {
+      "id": "plates",
+      "title": "Plates",
+      "src": "plates",
+      "items": [
+        {
+          "id": "beef-shish",
+          "name": "Beef Shish Kebabs",
+          "price": 19.0,
+          "img": "beef-shish-kebabs",
+          "desc": "Marinated grilled beef cubes served with rice and salad. Comes with tzatziki dip.",
+          "alt": "Grilled beef cubes with rice, salad and tzatziki"
+        },
+        {
+          "id": "lamb-shish",
+          "name": "Lamb Shish Kebabs",
+          "price": 19.0,
+          "img": "lamb-shish-kebabs",
+          "desc": "Marinated grilled lamb cubes served with rice and salad. Comes with tzatziki dip.",
+          "alt": "Grilled lamb cubes with rice, salad and tzatziki"
+        },
+        {
+          "id": "chicken-shish",
+          "name": "Chicken Shish Kebabs",
+          "price": 19.0,
+          "img": "chicken-shish-kebabs",
+          "desc": "Marinated grilled chicken cubes served with rice and salad. Comes with tzatziki dip.",
+          "alt": "Grilled chicken cubes with rice, salad and tzatziki"
+        },
+        {
+          "id": "gyro-plate",
+          "name": "Beef and Lamb Gyro Plate",
+          "price": 19.0,
+          "img": "beef-and-lamb-gyro-plate",
+          "desc": "Marinated, slow-cooked, thinly sliced lamb and beef served with rice and salad. Comes with tzatziki dip.",
+          "alt": "Sliced gyro meat with rice, salad and tzatziki"
+        },
+        {
+          "id": "falafel-plate",
+          "name": "Falafel Plate",
+          "price": 16.0,
+          "img": "falafel-plate",
+          "desc": "Four fresh homemade falafels served with rice and salad. Comes with tahini sauce dip.",
+          "alt": "Four falafels with rice, salad and tahini dip"
+        },
+        {
+          "id": "adana-plate",
+          "name": "Adana Kebab Plate",
+          "price": 19.0,
+          "img": "adana-kebab-plate",
+          "desc": "Specially seasoned and marinated ground beef, grilled with Mediterranean spices, served with rice and salad. Comes with tzatziki dip.",
+          "alt": "Two Adana kebabs with rice, salad and tzatziki"
+        },
+        {
+          "id": "mixed-grill",
+          "name": "Mixed Grill Plate",
+          "price": 33.5,
+          "img": "mixed-grill-plate",
+          "featured": true,
+          "desc": "A combination of marinated beef, lamb, and chicken shish kebabs, traditional Adana kebab, and gyro.",
+          "alt": "Platter of beef, lamb and chicken kebabs, Adana kebab and gyro"
+        }
+      ],
+      "intro": "Most plates come with rice, salad and a dip."
+    },
+    {
+      "id": "sides",
+      "title": "Sides",
+      "src": "sides",
+      "items": [
+        {
+          "id": "side-rice",
+          "name": "Side of Rice",
+          "price": 4.0,
+          "img": "side-of-rice",
+          "desc": "",
+          "alt": "Bowl of rice pilaf with orzo"
+        },
+        {
+          "id": "side-salad",
+          "name": "Side Salad",
+          "price": 6.0,
+          "img": "side-salad",
+          "desc": "",
+          "alt": "Bowl of chopped tomato, cucumber and red onion salad"
+        },
+        {
+          "id": "pita",
+          "name": "Pita Bread",
+          "price": 2.0,
+          "img": "pita-bread",
+          "desc": "",
+          "alt": "Warm pita bread wedges"
+        },
+        {
+          "id": "side-hummus",
+          "name": "Hummus",
+          "price": 4.0,
+          "img": "hummus",
+          "desc": "",
+          "alt": "Small bowl of hummus with olive oil"
+        },
+        {
+          "id": "side-cacik",
+          "name": "Cacikli (Tzatziki)",
+          "price": 4.0,
+          "img": "cacik-tzatziki",
+          "desc": "",
+          "alt": "Small bowl of cucumber yogurt dip"
+        },
+        {
+          "id": "side-baba",
+          "name": "Baba Ganoush",
+          "price": 4.0,
+          "img": "baba-ganoush",
+          "desc": "",
+          "alt": "Small bowl of baba ganoush with pomegranate seeds"
+        },
+        {
+          "id": "side-falafel",
+          "name": "Side of Falafel",
+          "price": 4.0,
+          "img": "side-of-falafel",
+          "desc": "",
+          "alt": "Plate of falafel, one broken open to show the green herb center"
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "title": "Drinks",
+      "src": "drinks",
+      "items": [
+        {
+          "id": "tea",
+          "name": "Turkish Tea",
+          "price": 2.0,
+          "img": "turkish-tea",
+          "desc": "",
+          "alt": "Turkish tea in a tulip-shaped glass on a saucer"
+        },
+        {
+          "id": "coffee",
+          "name": "Turkish Coffee",
+          "price": 5.0,
+          "img": "turkish-coffee",
+          "desc": "",
+          "alt": "Turkish coffee in a small cup on a saucer"
+        },
+        {
+          "id": "water",
+          "name": "Bottled Water",
+          "price": 2.0,
+          "img": "bottled-water",
+          "desc": "",
+          "alt": "Bottle of water"
+        },
+        {
+          "id": "soft-drinks",
+          "name": "Soft Drinks",
+          "price": 3.0,
+          "img": "soft-drinks",
+          "desc": "Coca-Cola, Diet Coke, Dr Pepper, Root Beer, Sprite, La Croix",
+          "alt": "Two glasses of soft drinks over ice"
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "title": "Desserts",
+      "src": "desserts",
+      "items": [
+        {
+          "id": "baklava",
+          "name": "Turkish Baklava",
+          "price": 5.0,
+          "img": "turkish-baklava",
+          "desc": "",
+          "alt": "Squares of pistachio baklava"
+        },
+        {
+          "id": "lokum",
+          "name": "Turkish Delight",
+          "price": 5.0,
+          "img": "turkish-delight",
+          "desc": "",
+          "alt": "Pink and yellow Turkish delight dusted with sugar"
+        }
+      ]
+    }
+  ]
+}
